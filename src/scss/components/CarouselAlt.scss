@@ -3,18 +3,21 @@
 .carousel {
     .carousel-inner {
         .carousel-item {
+            img {
+                //position: relative;
+                height: 18vw;
+                width: 100%;
+            }
             .carousel-caption {
+                left: 3rem;
+                display: flex;
+                text-align: left;
                 h3 {
                     color: #ffff;
-                    text-align: left;
-                    font-size: 6em;
-                    text-shadow: 6px 6px $primary-color;
-                }
-                p {
-                    color: #ffff;
-                    text-align: left;
-                    font-size: 2rem;
-                    text-shadow: 3px 3px $primary-color;
+                    font-size: 3vw;
+                    font-weight: bold;
+                    text-shadow: 0.3vw 0.3vw $primary-color;
+                    //width: max-content;
                 }
             }
         }
