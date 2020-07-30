@@ -1,0 +1,22 @@
+@import '../index.scss';
+
+.carousel {
+    .carousel-inner {
+        .carousel-item {
+            .carousel-caption {
+                h3 {
+                    color: #ffff;
+                    text-align: left;
+                    font-size: 6em;
+                    text-shadow: 6px 6px $primary-color;
+                }
+                p {
+                    color: #ffff;
+                    text-align: left;
+                    font-size: 2rem;
+                    text-shadow: 3px 3px $primary-color;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import '../index.scss';
+
+.contenedor {
+    vertical-align: middle;
+    .titulo {
+        padding-top: 2px;
+        background-color: $primary-color;
+        color: $secondary-color;
+        text-align: center;
+        padding: 30px 0;
+        font-weight: normal;
+        vertical-align: middle;
+    }
+    .logo {
+        margin-left: 25px;
+        width: 110px;
+    }
+    
+}

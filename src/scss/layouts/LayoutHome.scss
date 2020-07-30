@@ -1,0 +1,19 @@
+@import "../index.scss";
+
+.contenedor {
+  font-family: $font-primary;
+
+  .contenido {
+    display: inherit;
+    
+    .col {
+      padding: 0;
+    }
+
+  }
+
+  .footer {
+    background-color: $primary-color;
+  }
+
+}

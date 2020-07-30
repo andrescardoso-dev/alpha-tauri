@@ -1,0 +1,8 @@
+$font-primary: 'NotoSansKR-Medium', sans-serif;
+
+@font-face {
+    font-family: $font-primary;
+    src: url('../assets/fonts/NotoSansKR-Medium.otf');
+    font-weight: 500;
+    font-style: normal;
+}
