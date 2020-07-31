@@ -3,17 +3,25 @@
 .contenedor {
     vertical-align: middle;
     .titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding-top: 2px;
         background-color: $primary-color;
         color: $secondary-color;
         text-align: center;
-        padding: 30px 0;
-        font-weight: normal;
+        padding: 2vh 0;
         vertical-align: middle;
+
+        span {
+            font-size: 1.7vw;
+        }
+
     }
     .logo {
-        margin-left: 25px;
-        width: 110px;
+        margin-left: 1vw;
+        height: 1vw;
+        vertical-align: middle;
     }
     
 }

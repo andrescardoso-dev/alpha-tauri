@@ -18,7 +18,7 @@ export default function CarouselAlt() {
         <Caption>
           <Row>
             <Col xs={12} md={12} lg={10}>
-              <h3>First slide label</h3>
+              <h3>First slide labeljojasojfoasjof ojasdojasod</h3>
             </Col>
           </Row>
         </Caption>
