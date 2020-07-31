@@ -3,8 +3,6 @@ import LayoutHome from '../layouts/LayoutHome';
 
 export default function Home() {
     return (
-        <div>
             <LayoutHome />
-        </div>
     );
 }

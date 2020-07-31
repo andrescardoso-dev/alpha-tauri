@@ -1,7 +1,8 @@
 import React from 'react';
+import LayoutTeam from '../layouts/LayoutTeam';
 
 export default function Team() {
     return (
-        <h1>Team</h1>
+        <LayoutTeam />
     );
 }
