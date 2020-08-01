@@ -1,7 +1,6 @@
 @import '../index.scss';
 
 .contenedor {
-    vertical-align: middle;
     .titulo {
         display: flex;
         justify-content: center;
@@ -11,6 +10,7 @@
         color: $secondary-color;
         text-align: center;
         padding: 2vh 0;
+        margin-bottom: 0;
         vertical-align: middle;
 
         span {
