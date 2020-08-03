@@ -6,7 +6,7 @@
     position: relative;
     text-align: center;
     cursor: default;
-    background: #42b078;
+    background: #00060a;
   }
   
   .hovereffect .overlay {
@@ -33,7 +33,7 @@
   }
   
   .hovereffect:hover img {
-    opacity: 0.4;
+    opacity: 0.2;
     filter: alpha(opacity=40);
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
@@ -41,10 +41,13 @@
   
   .hovereffect h2 {
     text-transform: uppercase;
+    top: -7.5vh;
+    text-shadow: 0.2vw 0.2vw #00060a;
+    font-weight: bold;
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 1.7vw;
     overflow: hidden;
     padding: 0.5em 0;
     background-color: transparent;
@@ -70,6 +73,7 @@
   }
   
   .hovereffect a, .hovereffect p {
+    top: -50vh;
     color: #FFF;
     opacity: 0;
     filter: alpha(opacity=0);
