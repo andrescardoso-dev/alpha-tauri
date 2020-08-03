@@ -1,0 +1,16 @@
+@import '../index.scss';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $secondary-color;
+    text-align: center;
+    h3 {
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

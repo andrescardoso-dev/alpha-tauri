@@ -14,24 +14,28 @@
         vertical-align: middle;
 
         span {
-            font-size: 1.7vw;
+            text-transform: uppercase;
+            font-size: 18px;
         }
 
     }
+
+    .container-fluid {
+        padding-top: 15px;
+    }
+
     .news-row {
-        margin-right: 0;
-        margin-left: 0;
+
+        justify-content: space-around;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
         
-        .hovereffect {
-            .img-responsive {
-                height: 25vw;
-            }
-        }
 
     }
     .logo {
-        margin-left: 1vw;
-        height: 1vw;
+        margin-left: 15px;
+        height: 18px;
         vertical-align: middle;
     }
     
