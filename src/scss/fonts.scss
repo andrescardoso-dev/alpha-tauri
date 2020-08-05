@@ -1,8 +1,5 @@
-$font-primary: 'NotoSansKR-Medium', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans+Condensed:wght@700&display=swap');
 
-@font-face {
-    font-family: $font-primary;
-    src: url('../assets/fonts/NotoSansKR-Medium.otf');
-    font-weight: 500;
-    font-style: normal;
-}
+$font-primary: 'NotoSansKR-Medium', sans-serif;
+$font-secundary: 'OpenSansCondensed-Bold', sans-serif;
+

@@ -1,4 +1,5 @@
 @import '../index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans+Condensed:wght@700&display=swap');
 
 .alpha-tauri-navbar {
     background-color: $primary-color;
@@ -14,6 +15,7 @@
         .navbar-nav {
             width: max-content;
             .nav-link {
+                font-family: 'Noto Sans KR', sans-serif;
                 font-weight: bold;
                 text-transform: uppercase;
                 color: $secondary-color;

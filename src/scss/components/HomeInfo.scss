@@ -1,10 +1,13 @@
 @import '../index.scss';
 
+#contenedor-news {
+    margin-top: 0;
+}
+
 .contenedor {
     .titulo {
         display: flex;
         justify-content: center;
-        align-items: center;
         padding-top: 2px;
         background-color: $primary-color;
         color: $secondary-color;
@@ -30,7 +33,6 @@
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 20px;
-        
 
     }
     .logo {

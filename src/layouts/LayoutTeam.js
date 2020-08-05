@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import TeamSection from '../components/TeamSection';
 
 export default function LayoutTeam() {
     return (
         <Container fluid>
             <Row>
                 <Col>
-                    <h1>LayoutTeam</h1>
+                    <TeamSection />
                 </Col>
             </Row>
         </Container>

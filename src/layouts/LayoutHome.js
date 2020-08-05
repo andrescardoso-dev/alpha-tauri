@@ -7,9 +7,8 @@ import Footer from "../components/Footer";
 import "../scss/layouts/LayoutHome.scss";
 
 export default function LayoutHome() {
-
   return (
-    <Container fluid className="contenedor">
+    <Container fluid id="contenedor-padre" className="contenedor">
       <Row className="contenido">
         <Col>
           <CarouselAlt />

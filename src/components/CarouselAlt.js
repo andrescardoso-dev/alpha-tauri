@@ -10,7 +10,6 @@ import alpha3 from "../assets/img/alpha-carousel3.jpg";
 
 export default function CarouselAlt() {
   const { Item, Caption } = Carousel;
-
   return (
     <Carousel>
       <Item>

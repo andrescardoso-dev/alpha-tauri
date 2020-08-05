@@ -19,14 +19,12 @@ export default function Noticia(props) {
 }
 
 export function useNews() {
-  const newsJSON = require("../assets/json/news.json");
-  const loadData = () => JSON.parse(JSON.stringify(newsJSON));
-
   const [news, setNews] = useState([]);
 
   useEffect(() => {
+    const newsJSON = require("../assets/json/news.json");
+    const loadData = () => JSON.parse(JSON.stringify(newsJSON));
     setNews(loadData);
-    console.log(news);
   }, []);
 
   /*useEffect(() => {
