@@ -3,12 +3,18 @@
 
 .contenedor {
     margin-top: 25px;
+    .contenedor-team {
+        margin-bottom: 5vh;
+    }
+
     .row-title {
+        margin-top: 6vh;
+        margin-bottom: 3vh;
         .col-title {
             display: flex;
             justify-content: center;
             .title {
-                font-size: 32px;
+                font-size: 46px;
                 color: $primary-color;
                 text-transform: uppercase;
                 font-weight: bold;
